@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+.contenedor{
+    width: 100%;
+    max-width: 960px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    min-height: 100vh;
+   
+}
+/*._footer{
+    display: none;
+}*/
+
+
+.post{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    margin-bottom: 2%;
+    margin-top: 30px;    
+    max-height: 40vh;
+    overflow: hidden;
+    padding-right: 15px;
+}
+
+._eliminar{
+    width: 80px;
+    
+    position: absolute;
+    margin-top: 0;
+    margin-left: 380px;
+}
+._botonEliminar{
+    background-color: rgba(63, 68, 68, 0.698);
+    border: none;
+}
+.persona{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 15%;
+    margin-left: 0;
+    
+    align-self: flex-start;
+
+}
+
+
+.persona h6{
+    text-align: center;
+}
+
+.informe{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    width: 850px;
+
+}
+.informe h6{
+    font-style: italic;
+    margin-left: 0;
+}
+.informe a{
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: -0.3rem;
+    color:  black;
+}   
+
+.imagen{
+    border-radius: 2rem;
+    width: 100%;
+    overflow: hidden;
+    max-height: 50vh;
+}
+.informe img{
+    size: cover;
+    width: 100%;
+    border-radius: 2rem;
+    
+}
+
+.informe p{
+    margin-top: 0.1rem;
+    text-align: justify;
+    text-justify: newspaper;
+    margin-left: 0;
+}
+.texto{
+    width: 85%;
+    margin-left: 120px;
+    height: 8vh;
+    border-radius: 2rem;
+    padding: 1rem;
+    resize: none;
+}
+
+._publicar{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+._publicacion{
+    width: 100%;
+}
+
+._boton{
+    background-color: #C16337;
+}
+
+._boton1{
+    background-color: #C16337;
+}
+._boton1:hover{
+    background-color: rgb(145, 74, 41);
+}
+/*._boton1::selection{
+    background-color: rgb(145, 74, 41);
+}*/
+
+
+
+@media (max-width: 960px){
+
+}
+@media (max-width: 768px){
+  .persona{
+      width: 22%;
+  }
+  .imagen{
+      max-height: 30vh;
+  }
+  .informe a h3{
+      font-size: 1.5rem;
+  }
+  .informe h6{
+      font-size: 0.8rem;
+  }
+  .informe{
+      padding-left: 50px;
+  }
+  .post{
+      overflow: hidden;
+  }
+}
+@media (max-width: 480px){
+    .persona{
+        width: 28%;
+    }
+
+}

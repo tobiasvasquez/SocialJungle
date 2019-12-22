@@ -1,0 +1,42 @@
+._boton {
+    background-color: #C16337;
+    color: white;
+}
+
+._navbar {
+    width: 100%;
+    background-color: #3F4444;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 100px;
+}
+
+.logo a {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.botonIngresar {
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: space-between;
+    margin-right: 5%;
+
+}
+
+.botonIngresar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.botonIngresar a:hover {
+    color: #C16337;
+}

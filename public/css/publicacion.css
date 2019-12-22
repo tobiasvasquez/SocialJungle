@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+._contenedorPublicacion{
+    width: 100%;
+    max-width: 960px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.escritor{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin-left: 0; 
+    align-items: center; 
+    
+    
+}
+
+.escritor h5{
+    display: flex;
+    align-items: center;
+    
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+.imagenPerfil{
+    width: 50%;
+    
+}
+.fotoPerfil{
+    width: 100%;
+}
+
+
+._contPublic{
+    width: 90%;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.mensaje{
+    font-size: 1.1rem;
+}
+
+.contImagen{
+    max-width: 70%;
+}
+
+.imagenPubl{
+    size: cover;
+    
+}
+
+
+@media (max-width: 768px){
+  .contImagen{
+      width: 100%;
+  }
+  /*.escritor h5{
+      margin-left: 0;
+  }*/
+  .escritor{
+      width: 55%;
+  }
+}
+@media (max-width: 480px){
+    .escritor{
+        width: 100%;
+    }
+
+}
